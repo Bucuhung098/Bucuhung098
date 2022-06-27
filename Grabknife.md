@@ -80,7 +80,7 @@ plr:GetMouse().KeyDown:connect(function(key)
 		if deb == true then
 			deb = false
 		else
-			print("R!")
+			print("Way wtf!")
 			deb = true
 			
 			s = Instance.new("Sound",game:GetService("Workspace"))
@@ -90,7 +90,7 @@ plr:GetMouse().KeyDown:connect(function(key)
 			
 			wait(2)
 			
-			print("ZA WARUDO!")
+			print("Sussy!")
 			local cc = Instance.new("ColorCorrectionEffect",game:GetService("Lighting"))
 			spawn(function()
 				plr.Character.Humanoid.WalkSpeed = 0
@@ -172,7 +172,7 @@ plr:GetMouse().KeyDown:connect(function(key)
 			for i,v in pairs(stab) do
 				table.remove(stab,1)
 			end
-			--print("---------")
+			--print("hew nah")
 			--table.foreach(stab,print)
 			--[[for i,v in pairs(tsstab) do
 				v.Disabled = false
@@ -227,20 +227,6 @@ math4 = math4+(math.random(0,9)/10)
 local answer = (math4+(math1*math3))/(math1*math2)
 answer = math.floor((answer*10)+0.5)
 answer = answer/10
-print([[To be fair,(bro is this stupid player) IQ to understand Rick and Morty.
-The humor is extremely subtle, and without a solid grasp of theoretical physics most of the jokes will go over a typical viewer's head.
-There's also Rick's nihilistic outlook, which is deftly woven into his characterisation -
-his personal philosophy draws heavily from Narodnaya Volya literature, for instance.
-The fans understand this stuff;
-they have the intellectual capacity to truly appreciate the depths of these jokes, to realize that they're not just funny- they say something deep about LIFE.
-As a consequence people who dislike Rick and Morty truly ARE idiots-
-of course they wouldn't appreciate, for instance, the humour in Rick's existencial catchphrase "Wubba Lubba Dub Dub," which itself is a cryptic reference to Turgenev's Russian epic Fathers and Sons.
-I'm smirking right now just imagining one of those addlepated simpletons scratching their heads in confusion as Dan Harmon's genius unfolds itself on their television screens.
-What fools... how I pity them.
-And yes by the way, I DO have a Rick and Morty tattoo.
-And no, you cannot see it.
-It's for the ladies' eyes only-
-And even they have to demonstrate that they're within ]]..answer..[[ IQ points of my own (preferably lower) beforehand.]])
 local rekt = {}
 
 -- Objects
