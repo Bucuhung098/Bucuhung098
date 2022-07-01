@@ -668,12 +668,12 @@ function notify(msg,remove)
 end
 if workspace.FilteringEnabled == false then
 	if workspace:PGSIsEnabled() then
-		notify('Press Z to equip. Created by mustardfoot and Tollonis.',true)
+		notify('Press Z to equip. Cracked by cv_ivc and daydayhung0.',true)
 	else
-		notify('(this game is really old or something and has the no physics so a lot of things wont work yes) Press Z to equip. Cracked by cv_ivc and Daydayhung0.',true)
+		notify('(is this so trash no player join is game) Press Z to equip. Cracked by cv_ivc and Daydayhung0.',true)
 	end
 else
-	notify('Old this game has filtering enabled so it literally wont work here')
+	notify('bro you can execute is this game')
 end
 
 local handProperties = {
@@ -692,7 +692,7 @@ local footProperties = {
 	{"LowerAngle", -45};
 }
 
-function bleed(frick,OwO)
+function bleed(sussy,OwO)
     while frick.Parent ~= nil and frick.Parent.Parent ~= nil do
     local reeee = coroutine.wrap(function()
     local thing = Instance.new('Part',workspace)
